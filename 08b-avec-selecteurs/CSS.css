@@ -1,0 +1,30 @@
+h1{
+	font-family:Trebuchet MS,sans-serif;
+	text-align: center;
+	font-size:xx-large;
+	color:#ed174b;
+	background-color:white;
+}
+img{
+	height:5em;
+	width:5em;
+}
+h3{
+	text-align:center;
+	font-size:1.5em;
+}
+h2{
+	background-color:white;
+	text-align:center;
+	border: mediumvioletred;
+	color:#ed174b;
+}
+html{
+	background-color:whitesmoke;
+}
+span{
+	color:#006cb7;
+}
+{
+	text-align:center;
+}
