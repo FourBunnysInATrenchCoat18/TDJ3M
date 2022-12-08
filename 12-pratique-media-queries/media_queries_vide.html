@@ -20,6 +20,7 @@
 				}
 			
 				#logo { height: 118px;
+
 				}
 			
 				.mainContenu, .contenuCacheMoins600px, #nav, #header, #aside, #footer, .contenantItem {
@@ -33,6 +34,7 @@
 					height: 120px;
 					background-color: lime;
 				}
+
 
 				#nav {
 					flex: 100%;
@@ -77,14 +79,36 @@
 				
 				/* quand l'ecran est moins que 800px */
 				@media screen and (max-width: 800px) {
+					#header, #footer { background-color: aqua;}
+					#header { display: flex; flex-direction: row-reverse; }
+					#nav{flex-direction: column-reverse; flex: 5%;}
+					.mainContenu{ flex:50%;}
+					#aside{ flex:27.5%;}
+					
+
+
+
+
 				}
+
+				
 
 				/* quand l'ecran est moins que 650px */
 				@media screen and (max-width: 650px) {
+					
+					#aside{ flex:100%;}
+					.mainContenu{flex: 80%;}
+					
+
 				}
 				
 				/* quand l'ecran est moins que 600px */
 				@media screen and (max-width: 600px) {
+
+					.contenuCacheMoins600px{ display: none; }
+					
+
+
 				}
 			
 			</style>
