@@ -1,0 +1,244 @@
+<!doctype html>
+	<html>
+		<head>
+            <title>Animals</title>
+		</head>
+		<style type="text/css">
+
+{display: flex;
+					flex-wrap: wrap;
+					flex-direction: column;
+					justify-content: flex-end;
+					background-color: white;}
+
+				#header
+				{
+					width: 100%;
+					height: 140px;
+					background-color: white;
+					box-sizing: border-box;
+				}
+					div.gallery {
+					  border: 1px solid #ccc;
+					}
+
+					div.gallery:hover {
+					  border: 1px solid #777;
+					}
+
+					div.gallery img {
+					  width: 100%;
+					  height: auto;
+					  margin-top: 20%;
+					}
+
+					div.desc {
+					  padding: 15px;
+					  text-align: center;
+					}
+
+					* {
+					  box-sizing: border-box;
+					}
+
+					.responsive {
+					  padding: 0 6px;
+					  float: left;
+					  width: 24.99999%;
+					}
+
+					@media only screen and (max-width: 700px) {
+					  .responsive {
+					    width: 49.99999%;
+					    margin: 6px 0;
+					    margin-top: 20px;
+					  }
+					
+					}
+
+					@media only screen and (max-width: 500px) {
+					  .responsive {
+					    width: 100%;
+					  }
+					}
+
+					.clearfix:after {
+					  content: "";
+					  display: table;
+					  clear: both;
+					}
+
+
+				img{
+					-webkit-filter: brightness(100%);
+				}
+				img:hover{
+					-webkit-filter: brightness(70%);
+    				-webkit-transition: all 1s ease;
+    				-moz-transition: all 1s ease;
+   					-o-transition: all 1s ease;
+   				    -ms-transition: all 1s ease;
+    				transition: all 1s ease;
+
+				}
+
+				#logo
+				{ align-self:auto;
+				  height: 137px;
+				  width: 200px;
+
+				}
+
+					
+
+				#main {
+					flex: 100%;
+					display: flex;
+					flex-wrap: wrap;
+				}
+
+				#nav, #header{
+					border-style: solid;
+					border-color: black;
+					border-width: 2px;
+				}
+
+				#nav {
+					flex: 100%;
+					display: flex;
+					flex-direction: row;
+					justify-content: flex-end;
+				}
+				
+				#nav .navlink {
+					padding-right: 15%;
+					
+					max-width: 60px;
+					text-align: center;
+				}
+				td{ text-align: center; }
+				
+				h2{
+					text-align: left;
+				}
+				</style>
+
+				
+
+
+
+			<div id="header">
+				<img id="logo" src="images/Café.png">	
+				
+		    </div>
+
+		   
+
+
+		   <div id="main">
+		   	<div class="responsive">
+		<div class="gallery">
+			  <a target="_blank" href="#Kitty">
+			    <img src="https://www.mexicodesconocido.com.mx/sites/default/files/nodes/inline/la_gateria_cat_cafe_ciudad_mexico_530.jpg" alt="Cinque Terre" width="600" height="400">
+			  </a>
+			  <div class="sdesc">Cat Corner:
+A small getaway for the cats when they want to recarge.</div>
+		</div>
+	</div>
+
+		<div class="responsive">
+		<div class="gallery">
+			  <a target="_blank" href="#Doggy">
+			    <img src="https://im.whatshot.in/img/2022/Jul/image-10-1657529004.jpg" alt="Forest" width="600" height="400">
+			  </a>
+			  <div class="desc">Doggy Den:
+A dining area for dog lovers to enjoy a meal with a cute dog friend.</div>
+		</div>
+	</div>
+
+		<div class="responsive">
+		<div class="gallery">
+			  <a target="_blank" href="#Choir">
+			    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Catsrepublic.jpg/275px-Catsrepublic.jpg" alt="pets" width="600" height="400">
+			  </a>
+			  <div class="desc">Kitty Choir:
+A room with glass walls to watch us feed our little creatures while they serenade you in song.</div>
+		</div>
+	</div>
+
+		<div class="responsive">
+		<div  class="gallery">
+
+			  <a target="_blank" href="#bunny">
+			    <img src="https://static.boredpanda.com/blog/wp-content/uploads/2015/04/Animal-Cafes-From-Around-the-World-__700.jpg" alt="Mountains" width="600" height="400">
+			  </a>
+			  <div class="desc">Costume Corner:
+We have our fluffiest bunnies and all kinds of costumes to change into, Alice and the White Rabbit, Rodger Rabbit and Jessica Rabbit, etc.</div>
+		</div>
+	</div>
+
+
+	<h3>We have the best coffe and animals here, well trained and well groomed! We have great costomer service too!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</h3>
+
+	
+	
+
+	
+	<h2 id="Kitty"> Cat Corner</h2>
+
+ 	<div class="responsive">
+		<div class="gallery">
+			    <img src="https://www.mexicodesconocido.com.mx/sites/default/files/nodes/inline/la_gateria_cat_cafe_ciudad_mexico_530.jpg" alt="Cinque Terre" width="600" height="400">
+			  
+		</div>
+	</div>
+
+	<p>We have our cat corner,  We have two separate dining rooms for each animal and separate crates to prevent cross-contamination. We have glass protectors and gloves for cash payments. We hope to protect you and our staff in the best way possible.</p>
+
+
+		
+
+
+	<h2 id="Doggy"> Doggy Den</h2>
+
+<div class="responsive">
+		<div class="gallery">
+			    <img src="https://im.whatshot.in/img/2022/Jul/image-10-1657529004.jpg" alt="Forest" width="600" height="400">
+			 
+		</div>
+	</div>
+
+	<p>We have our doggy den, We have two separate dining rooms for each animal and separate crates to prevent cross-contamination. We have glass protectors and gloves for cash payments. We hope to protect you and our staff in the best way possible.</p>
+
+	
+
+<h2 id="Choir"> Kitty Choir</h2>
+
+<div class="responsive">
+		<div class="gallery">
+			    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Catsrepublic.jpg/275px-Catsrepublic.jpg" alt="pets" width="600" height="400">
+			 
+		</div>
+	</div>
+
+	<p> Our kitty choir, we feed the cats at specific times and in the same room, as none of our cats are territorial, they can eat in the same room. This room is separated from yours by a glass wall. You can hear them sing their hunger song while waiting for their food. You can make reservations online or in person to find out when they are fed throughout the day. Unfortunately, we do not have a doggy choir, as dogs are territorial by nature.</p>
+
+	<h2 id="bunny"> Costume Corner </h2>
+	<div class="responsive">
+		<div  class="gallery">
+
+	
+			    <img src="https://static.boredpanda.com/blog/wp-content/uploads/2015/04/Animal-Cafes-From-Around-the-World-__700.jpg" alt="Mountains" width="600" height="400">
+			  
+		</div>
+	</div>
+
+	<p> And our costume corner, we have all kinds of bunnies and rabbits, we have costumes you can try on and pictures you can take for $5 per person. Our bunnies are used to being picked up for short periods of time. Please be careful with their ears and tails, as they are the most sensitive.</p>
+
+
+
+
+
+				
+		</body>
+	</html>
